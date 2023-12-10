@@ -8,8 +8,8 @@ terraform {
 
 variable "parameters" {
   default = [
-    {name = "test" , type = String, value = "test"},
-    {name = "test1" , type = String, value = "test1"}
+    {name = "test" , type = string, value = "test"},
+    {name = "test1" , type = string, value = "test1"}
   ]
 }
 
