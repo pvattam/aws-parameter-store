@@ -9,5 +9,6 @@ variable "parameters" {
     #PASSWORDS --- It should not kept in code, Always for password we create mostly manually
     {name = "dev.rds.password" , type = "SecureString", value = "ExpenseApp1234"},
     {name = "sonar.token" , type = "SecureString", value = "4f600c624d928cf4cce64c5e940438759ba67f80"},
+    {name = "artifactory.password" , type = "SecureString", value = "Admin123"},
   ]
 }
