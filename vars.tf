@@ -4,6 +4,7 @@ variable "parameters" {
     {name = "dev.frontend.BACKEND_ENDPOINT" , type = "String", value = "http://backend-dev.devopspv24.online/"},
     {name = "ssh.username", type = "String", value = "root"},
     {name = "artifactory.username", type = "String", value = "admin"},
+    {name = "dev.backend.app_version", type = "String", value = "1.0.0"},
 
     {name = "dev.rds.endpoint" , type = "String", value = "dev-mysql-rds.carn17scsnwv.us-east-1.rds.amazonaws.com"},
     {name = "dev.rds.username" , type = "String", value = "admin1"},
