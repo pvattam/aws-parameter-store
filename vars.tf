@@ -5,8 +5,6 @@ variable "parameters" {
     "dev.frontend.BACKEND_ENDPOINT" = {name = "dev.frontend.BACKEND_ENDPOINT" , type = "String", value = "http://backend-dev.devopspv24.online/"},
     "dev.backend.app_version" = {name = "dev.backend.app_version", type = "String", value = "1.0.0"},
     "dev.frontend.app_version" = {name = "dev.frontend.app_version", type = "String", value = "1.0.0"},
-
-
     "prod.backend.DB_HOST" = {name = "prod.backend.DB_HOST" , type = "String", value = "prod-mysql-rds.carn17scsnwv.us-east-1.rds.amazonaws.com"},
     "prod.frontend.BACKEND_ENDPOINT" = {name = "prod.frontend.BACKEND_ENDPOINT" , type = "String", value = "http://backend-prod.devopspv24.online/"},
     "prod.backend.app_version" = {name = "prod.backend.app_version", type = "String", value = "1.0.0"},
