@@ -6,12 +6,12 @@ pipeline {
     }
 
     options {
-        ansiColor|('xterm')
+        ansiColor('xterm')
     }
 
     stages{
 
-        stage('Apply){
+        stage('Apply'){
             steps{
                 sh 'terraform init'
                 sh 'terraform apply -auto-approve'
