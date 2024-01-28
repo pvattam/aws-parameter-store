@@ -32,5 +32,6 @@ variable "parameters" {
     "sonar.token" = {name = "sonar.token" , type = "SecureString", value = "4f600c624d928cf4cce64c5e940438759ba67f80"},
     "artifactory.password" = {name = "artifactory.password" , type = "SecureString", value = "Admin123"},
     "ssh.password" = {name = "ssh.password" , type = "SecureString", value = "DevOps321"},
+    "elasticsearch.password" = {name = "elasticsearch.password" , type = "SecureString", value = "d+D9xYp4WviZfdYLpE=N"},
   }
 }
